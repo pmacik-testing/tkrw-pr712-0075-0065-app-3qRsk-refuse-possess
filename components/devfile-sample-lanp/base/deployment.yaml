@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-lanp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0065-tenant/tkrw-pr712-0075-0065-app/devfile-sample-lanp@sha256:a5d4883a4d261f7ccc2cb46b036303eb2b9eb52b04bb84a51d681b480a06d7ec
         name: my-nodejs
         ports:
         - containerPort: 3001
